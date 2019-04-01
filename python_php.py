@@ -10,7 +10,7 @@ try:
     cursor = db.cursor()
     my_string = "select * from blog"
     cursor.execute(my_string)
-    for each_row in cur.fetchall():
+    for each_row in cursor.fetchall():
         print (each_row)
     db.close()
 except Exception as e:
