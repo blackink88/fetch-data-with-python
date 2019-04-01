@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import MySQLdb
-
+# Firstly, I will handle any exception
 try:
     db = MySQLdb.connect(host="l27.0.0.1",      
                      db="blog",                  
